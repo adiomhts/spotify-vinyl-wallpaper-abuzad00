@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="spotify-vinyl-wallpaper">
+  <schema id="org.gnome.shell.extensions.spotify-vinyl-wallpaper" path="/org/gnome/shell/extensions/spotify-vinyl-wallpaper/">
+    <key name="show-vinyl" type="b">
+      <default>true</default>
+      <summary>Show vinyl record</summary>
+      <description>Whether to show the spinning vinyl record.</description>
+    </key>
+    <key name="vinyl-size" type="i">
+      <default>200</default>
+      <summary>Vinyl size</summary>
+      <description>Diameter of the vinyl record in pixels.</description>
+    </key>
+    <key name="vinyl-speed" type="i">
+      <default>2400</default>
+      <summary>Rotation duration</summary>
+      <description>Duration in milliseconds for one 360-degree rotation.</description>
+    </key>
+    <key name="margin-x" type="i">
+      <default>36</default>
+      <summary>Horizontal margin</summary>
+      <description>Horizontal distance from screen edge in pixels.</description>
+    </key>
+    <key name="margin-y" type="i">
+      <default>36</default>
+      <summary>Vertical margin</summary>
+      <description>Vertical distance from panel/screen top in pixels.</description>
+    </key>
+    <key name="always-on-top" type="b">
+      <default>true</default>
+      <summary>Always on top</summary>
+      <description>Keep vinyl record visible above application windows.</description>
+    </key>
+    <key name="inner-size" type="i">
+      <default>44</default>
+      <summary>Inner label size percent</summary>
+      <description>Percentage of vinyl radius for the album cover label (20 to 75).</description>
+    </key>
+    <key name="cache-max-artists" type="i">
+      <default>50</default>
+      <summary>Maximum cached artists</summary>
+      <description>Maximum number of most frequent artists to preserve in local database.</description>
+    </key>
+    <key name="cache-max-size-mb" type="i">
+      <default>200</default>
+      <summary>Maximum cache size in MB</summary>
+      <description>Maximum disk size for cached artist wallpapers in megabytes.</description>
+    </key>
+    <key name="cover-scale" type="i">
+      <default>100</default>
+      <summary>Cover zoom inside label</summary>
+      <description>Scale percentage of album cover inside circular label (5 to 300).</description>
+    </key>
+    <key name="prefer-logo" type="b">
+      <default>true</default>
+      <summary>Prefer artist logo</summary>
+      <description>Prefer band or artist logo wallpaper over photo when available in TheAudioDB.</description>
+    </key>
+  </schema>
+</schemalist>

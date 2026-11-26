@@ -1,0 +1,13 @@
+{
+  "uuid": "spotify-vinyl-wallpaper@abuzad00",
+  "name": "Spotify Vinyl Wallpaper",
+  "description": "Sets the desktop wallpaper to the Spotify artist photo with a spinning vinyl record of the album cover at the top-left corner.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.spotify-vinyl-wallpaper",
+  "url": ""
+}
